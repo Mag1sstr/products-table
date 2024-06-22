@@ -1,0 +1,29 @@
+table {
+    font-size: 20px;
+    border: 1px solid #000;
+}
+td{
+    border: 1px solid #000;
+
+}
+/* td {
+    text-align: left;
+      padding: 10px;
+      border: 3px solid rgb(43, 129, 17);
+  } */
+
+button{
+    font-size: 20px;
+}
+.this{
+    background-color: green;
+}
+.input__box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.input{
+    font-size: 20px;
+}

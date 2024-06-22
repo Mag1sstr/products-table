@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <div class="input__box">
+      <input class="input input__name" type="text" placeholder="Название" />
+      <input class="input input__price" type="text" placeholder="Стоимость" />
+      <button class="add__button">Добавить</button>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <td>Название</td>
+          <td>Стоимость за единицу</td>
+          <td>Количество</td>
+          <td>Итоговая стоимость</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="parent">
+          <td>Хлеб</td>
+          <td class="price">170</td>
+          <td class="count">1</td>
+          <td class="item__sum">170</td>
+          <td><button class="plus__btn">+</button></td>
+          <td><button class="minus__btn">-</button></td>
+        </tr>
+        <tr class="parent">
+          <td>Молоко</td>
+          <td class="price">420</td>
+          <td class="count">1</td>
+          <td class="item__sum">420</td>
+          <td><button class="plus__btn">+</button></td>
+          <td><button class="minus__btn">-</button></td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr class="finish">
+          <td>Итого</td>
+          <td></td>
+          <td></td>
+          <td class="all__sum">590</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
